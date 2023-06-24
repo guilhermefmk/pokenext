@@ -5,7 +5,7 @@ import Card from '@/pages/components/Card'
 
 export async function getStaticProps() {
   
-  const maxPokemons = 251;
+  const maxPokemons = 151;
   
 
   const res = await fetch(
